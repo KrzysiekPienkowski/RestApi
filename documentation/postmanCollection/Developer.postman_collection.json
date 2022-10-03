@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "4922817c-b205-4f88-866f-ee05f18ab3af",
+		"name": "Developer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST add Developer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Krzysiek\",\r\n    \"tasks\" : [\r\n        {\r\n            \"description\" : \"task1\"\r\n        },\r\n        {\r\n             \"description\" : \"task2\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET developers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Krzysiek\",\r\n    \"tasks\" : [\r\n        {\r\n            \"description\" : \"task1\"\r\n        },\r\n        {\r\n             \"description\" : \"task2\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"developer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
